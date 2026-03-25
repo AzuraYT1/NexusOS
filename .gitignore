@@ -1,0 +1,48 @@
+# Binários e objetos
+*.o
+*.ko
+*.elf
+*.bin
+*.iso
+*.img
+*.out
+*.a
+*.so
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.swo
+*~
+core
+
+# Logs e builds
+*.log
+build/
+dist/
+target/
+
+# QEMU e VMs
+*.qcow2
+*.vmdk
+*.vdi
+*.pid
+
+# Toolchain
+toolchain/
+cross/
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# MacOS
+.DS_Store
+
+# Seu OS específico
+nexusOS.bin
+nexusOS.iso
+kernel.bin
+ramdisk.img
+disk.img
